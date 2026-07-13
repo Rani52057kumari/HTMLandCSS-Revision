@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     
 }
 
@@ -14,16 +13,14 @@ body{
     text-align: center;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    /* overflow-x: hidden; */
+    background-color: #FFFFFF;
 }
-
 
 /* header css */
 header {
     background-color: #7C3AED;
     width: 100vw;
     height: 11em;
-    /* color: #DBEAFE; */
 }
 
 
@@ -40,16 +37,24 @@ h1{
     padding-top: 10px;
 }
 
+ul{
+    list-style: none;
+}
 
 #nav-list{
-    margin-top: 30px;
-    outline: blanchedalmond;
-    padding: 20px;
+    /* margin-top: 30px; */
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    outline: 3px solid rgb(26, 26, 25);
+    padding: 10px;
     text-align: center;
+    overflow-y: hidden;
+    list-style: none;
+
     
 }
 
-#nav-list, li{
+#nav-list li{
     display: inline;
 }
 
@@ -63,7 +68,7 @@ a {
 }
 
 nav {
-    padding: 10px;
+    padding: 1%;
     
 }
 
@@ -86,6 +91,51 @@ small{
     display: block;
 }
 
+/* main section css */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    gap: 3.5em;
+}
+
+/* .main-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-rows: auto;
+    gap: 3.5em; */
+
+    
+    /* text-align: center; */
+
+/* } */
 
 
+.course{
+
+    margin-top: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 3px 4px 5px 6px lightpink;
+    border-radius: 40px;
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+
+
+}
+
+aside{
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 5px 8px palevioletred;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+
+#mr{
+    font-weight: bold;
+}
 

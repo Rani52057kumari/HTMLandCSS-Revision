@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     
 }
 
@@ -40,22 +39,21 @@ h1{
     padding-top: 10px;
 }
 
+ul{
+    list-style: none;
+}
 
 #nav-list{
-    margin-top: 30px;
+    /* margin-top: 10px; */
     outline: blanchedalmond;
-    padding: 20px;
     text-align: center;
     
 }
 
-#nav-list, li{
+#nav-list li{
     display: inline;
 }
 
-p{
-    font-size: 1rem;
-}
 
 a {
     font-size: 1.2rem;
@@ -64,6 +62,8 @@ a {
 
 nav {
     padding: 10px;
+    /* margin-top: 10px; */
+
     
 }
 
@@ -85,3 +85,57 @@ small{
     padding-bottom: 1em;
     display: block;
 }
+
+/* main section css */
+
+img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.details{
+    padding: 40px;
+    padding-left: 2em;
+    text-align: left;
+    border-radius: 40px;
+    box-shadow: 3px 4px 6px 8px pink;
+    margin-bottom: 20px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.about-me{
+    margin-top: 40px;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 4px 8px pink;
+}
+
+.my-hobbies{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 4px 8px pink;
+}
+
+.my-goals{
+    margin-top: 40px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 4px 8px pink;
+}
+
+
+
+
+

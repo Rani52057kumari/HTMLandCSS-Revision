@@ -1,0 +1,85 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* body css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+
+/* header css  */
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+/* main section css */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+form{
+    min-height: 2em;
+    padding: 9rem;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+
+} 
+
+fieldset{
+    padding: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+input:focus{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 4px rgb(18, 43, 46);
+
+}
+
+textarea:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+
+bu
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+

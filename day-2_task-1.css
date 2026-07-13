@@ -1,0 +1,85 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body csss */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* header css */
+header{
+    background-color: blanchedalmond;
+}
+
+/* main section css */
+/* south korea main container */
+.South-Korea{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* south korea items */
+.south{
+    min-height: 3em;
+    max-height: 500px;
+    width: 100%;
+    outline: 2px solid rgb(141, 109, 120);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+/* india main container */
+.indias{
+    background-color: rgb(102, 116, 141);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;   
+}
+
+/* india items */
+.india{
+    min-height: 3em; 
+    max-height: 400px;
+    width: 100%;
+    outline: 2px solid rgb(85, 82, 83);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.solo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+
+}
+
+#favorite{
+    min-height: 3em;
+    max-height: 500px;
+    width: 50%;
+    outline: 2px solid rgb(85, 82, 83);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+

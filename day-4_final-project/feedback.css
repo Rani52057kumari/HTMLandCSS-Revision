@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     
 }
 
@@ -14,7 +13,7 @@ body{
     text-align: center;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    /* overflow-x: hidden; */
+    background-color:cornsilk;
 }
 
 
@@ -23,7 +22,6 @@ header {
     background-color: #7C3AED;
     width: 100vw;
     height: 11em;
-    /* color: #DBEAFE; */
 }
 
 
@@ -40,22 +38,20 @@ h1{
     padding-top: 10px;
 }
 
+ul{
+    list-style: none;
+}
 
 #nav-list{
-    margin-top: 30px;
     outline: blanchedalmond;
-    padding: 20px;
     text-align: center;
     
 }
 
-#nav-list, li{
+#nav-list li{
     display: inline;
 }
 
-p{
-    font-size: 1rem;
-}
 
 a {
     font-size: 1.2rem;
@@ -64,6 +60,7 @@ a {
 
 nav {
     padding: 10px;
+
     
 }
 
@@ -84,6 +81,38 @@ footer{
 small{
     padding-bottom: 1em;
     display: block;
+}
+
+/* main section css */
+main{
+    border-radius: 80px;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /* grid-template-rows: auto; */
+    /* gap: 2px;  */
+
+
+}
+
+form{
+    background-color: aqua;
+    text-align: left;
+    width: 47vw;
+    height: auto;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 30px;
+
+}
+
+#portal-img{
+    width: 45vw;
+    height: 60vh;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 

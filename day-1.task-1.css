@@ -1,50 +1,75 @@
+/* Reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
+/* body css */
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    /* text-align: center; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    
 }
 
-#head{
-    background-color: #003366;
-    padding: 20px;
-    text-align: center;
+/* header css  */
+header{
+    background-color: cadetblue; 
+   
 
+} 
+
+.head{
+    display: flex;
+    background-color: rgb(2, 135, 135);
+    align-items: center;
+    gap: 3px;
+    padding: 10px;
+    text-align: center;
 }
 
 #logo{
-    width: 70px;
-    /* float: left; */
+    width: 50px;
+    border-radius: 50px;
+    flex-shrink: 0;
 }
 
-h1{
-    font-size: 2rem;
-    margin-top: 10px;
+.extra-div{
+    flex-shrink: 1;
+    flex-grow: 2;
+    flex-basis: 100px;
 }
 
-p{
-    margin-top: 10px;
-    font-size: 1rem;
-    line-height: 25px;
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
-nav {
-    margin-top: 20px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.2);
+nav a{
+    color: rgb(53, 38, 18);
+    font-weight: bold;
 }
 
-nav, a {
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
+/* footer css */
+
+footer{
+    background-color: rgba(0, 150, 150, 0.677);
 }
+
+/* main section css */
 
 main{
-    margin-top: 50px;
-    margin-left: 40px;
+    text-align: center;
 }
+
+
+
+

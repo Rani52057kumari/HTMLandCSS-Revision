@@ -1,0 +1,51 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* body section css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color:cadetblue;
+    text-align: center;
+}
+
+/* header css */
+header{
+    background-color:rgb(184, 194, 166);
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.navbar{
+    list-style: none;
+    outline: 2px solid rgb(82, 99, 63);
+    padding: 1em;
+    display: flex;
+    /* justify-content: center; */
+    gap:1em
+    flex-shrink: 1;
+    flex-grow: 3;
+    flex-basis: 30px;
+    
+
+
+}
+
+/* .one{
+ 
+} */
+
+#web-logo{
+    width: 4em;
+}
+
+

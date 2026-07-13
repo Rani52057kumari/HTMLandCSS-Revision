@@ -4,142 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task-2</title>
+    <link rel="stylesheet" href="day-3_task-2.css">
 </head>
 <body>
-    <form action="" autocomplete="off">
-        <fieldset>
-            <fieldset><h1> JOB APPLICATION FORM</h1></fieldset><br>
 
-            <fieldset>
-                <strong>
-                 <fieldset>Personal Information</fieldset>
-                </strong><br>
-
-                <label for="name">Name : </label>
-                <input type="text" placeholder="Enter your name" name="name" autocomplete="off" required>
-                <br><br>
-
-                <label for="email">Email : </label>
-                <input name="email" type="email" placeholder="Enter email" autocomplete="new" required>
-                <br><br>
-
-                <label for="password">Password : </label>
-                <input name="password" type="password" minlength="5" maxlength="13" placeholder="Enter password" autocomplete="new-password" required>
-                <br><br>
-
-                <label for="Phone">Phone Number : </label>
-                <input name="phone" type="tel" maxlength="10" pattern="[0-9]{10}" required>
-                <br><br>
-
-                <label for="date">Date of Birth : </label>
-                <input name="date" type="date" required>
+    <header>
+        <h1> JOB APPLICATION FORM</h1>
+    </header>
+    <main>
+        <form action="" autocomplete="off">
                 
 
-                <p>Gender</p>
-                <label for="female">Female</label>
-                <input name="gender" type="radio" required value="female">
-                <br><br>
+                    <strong>Personal Information</strong><br>
 
-                <label for="male">Male</label>
-                <input name="gender" type="radio" required value="male">
-                <br><br>
+                    <label for="name">Name : </label>
+                    <input type="text" placeholder="Enter your name" name="name" autocomplete="off" required>
+                    <br><br>
 
-                <label for="other">Other</label>
-                <input name="gender" type="radio" required value="other">
-                <br><br><br>
-                
-                <strong>
-                    <fieldset> Professional Information</fieldset>
-                </strong>
-                <br><br>
+                    <label for="email">Email : </label>
+                    <input name="email" type="email" placeholder="Enter email" autocomplete="new" required>
+                    <br><br>
 
-                <select>Select Position
-                    <option>Frontend Developer</option>
-                    <option>Backend Developer</option>
-                    <option>Full Stack Developer</option>
-                    <option>UI/UX Designer</option>
-                </select>
-                <br><br>
-                
-                <select>Select Experience
-                    <option>Fresher</option>
-                    <option>1-2 Years</option>
-                    <option>3-5 Years</option>
-                    <option>5+ Years</option>
-                </select>
-                <br><br><br>
+                    <label for="password">Password : </label>
+                    <input name="password" type="password" minlength="5" maxlength="13" placeholder="Enter password" autocomplete="new-password" required>
+                    <br><br>
 
-                <strong>Skills</strong><br><br>
-                <label>HTML</label>
-                <input type="checkbox">
-                <br>
+                    <label for="Phone">Phone Number : </label>
+                    <input name="phone" type="tel" maxlength="10" pattern="[0-9]{10}" required>
+                    <br><br>
 
-                <label>CSS</label>
-                <input type="checkbox">
-                <br>
+                    <label for="date">Date of Birth : </label>
+                    <input name="date" type="date" required>
+                    
 
-                <label>JavaScript</label>
-                <input type="checkbox">
-                <br>
+                    <p>Gender</p>
+                    <label for="female">Female</label>
+                    <input name="gender" type="radio" required value="female">
+                    <br><br>
 
-                <label>React</label>
-                <input type="checkbox">
-                <br>
+                    <label for="male">Male</label>
+                    <input name="gender" type="radio" required value="male">
+                    <br><br>
 
-                <label>Node.js</label>
-                <input type="checkbox">
-                <br>
+                    <label for="other">Other</label>
+                    <input name="gender" type="radio" required value="other">
+                    <br><br><br>
+                    
+                    <fieldset>
+                        <strong>Professional Information</strong>
+                        <br><br>
 
-                <label>MongoDB</label>
-                <input type="checkbox">
-                <br><br><br>
 
-                <strong>
-                    <fieldset>Documents</fieldset>
-                </strong>
-                <br>
+                        <select>Select Position
+                            <option>Frontend Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>UI/UX Designer</option>
+                        </select>
+                    
+                    <br><br>
+                    
+                    <select>Select Experience
+                        <option>Fresher</option>
+                        <option>1-2 Years</option>
+                        <option>3-5 Years</option>
+                        <option>5+ Years</option>
+                    </select>
+                    </fieldset>
+                    <br><br><br>
 
-                <label for="upload-resume">Upload Resume</label><br>
-                <input name="upload-file" type="file" required>
-                <br><br>
+                    <strong>Skills</strong><br><br>
+                    <label>HTML</label>
+                    <input type="checkbox">
+                    <br>
 
-                <label for="portfolio">Portfolio Website : </label>
-                <input name="portfolio" type="url" placeholder="Enter portfolio link" required>
-                <br><br>
+                    <label>CSS</label>
+                    <input type="checkbox">
+                    <br>
 
-                <label for="date">Preferred Joining Date : </label>
-                <input name="joining-date" type="date" required>
-                <br><br>
+                    <label>JavaScript</label>
+                    <input type="checkbox">
+                    <br>
 
-                <label for="salary">Expected Salary : </label>
-                <input type="number" name="salary" placeholder="Enter your Expected salary" required>
-                <br><br>
+                    <label>React</label>
+                    <input type="checkbox">
+                    <br>
 
-                <label for="color">Favorite Color : </label>
-                <input name="color" type="color">
-                <br><br><br>
+                    <label>Node.js</label>
+                    <input type="checkbox">
+                    <br>
 
-                <fieldset>
-                    <strong>Additional Information</strong>
-                </fieldset>
-                <br>
+                    <label>MongoDB</label>
+                    <input type="checkbox">
+                    <br><br><br>
 
-                <label for="address">Address : </label>
-                <textarea></textarea>
-                <br><br>
+                    <strong>Documents</strong>
+                    <br>
 
-                <label>Why should we hire you?</label>
-                <textarea></textarea>
-                <br><br>
+                    <label for="upload-resume">Upload Resume</label><br>
+                    <input name="upload-file" type="file" required>
+                    <br><br>
 
-                <table border="3">
-                    <tr>
-                        <td><button type="submit">Submit</button> </td>
-                        <td><button type="reset">Reset</button></td>
-                    </tr>
-                </table>
-            </fieldset>
-        </fieldset>
-    </form>
+                    <label for="portfolio">Portfolio Website : </label>
+                    <input name="portfolio" type="url" placeholder="Enter portfolio link" required>
+                    <br><br>
+
+                    <label for="date">Preferred Joining Date : </label>
+                    <input name="joining-date" type="date" required>
+                    <br><br>
+
+                    <label for="salary">Expected Salary : </label>
+                    <input type="number" name="salary" placeholder="Enter your Expected salary" required>
+                    <br><br>
+
+                    <label for="color">Favorite Color : </label>
+                    <input name="color" type="color">
+                    <br><br><br>
+
+            
+                        <strong>Additional Information</strong>
+                    
+                    <br>
+
+                    <label for="address">Address : </label>
+                    <textarea></textarea>
+                    <br><br>
+
+                    <label>Why should we hire you?</label>
+                    <textarea></textarea>
+                    <br><br>
+
+                    <div class="btn">
+                        <button type="submit">Submit</button> 
+                        <button type="reset">Reset</button>
+                    </div>
+        </form>
+    </main>
 </body>
 </html>
