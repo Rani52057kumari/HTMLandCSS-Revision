@@ -9,82 +9,93 @@
 <body>
 
     <header>
-        <img src="https://shivshankar9.github.io/Student-portal/images/logo.png" alt="Logo" id="logo">
-        <h1>Profile Page</h1>
-        <h2>MY PROFILE</h2>
+        <div class="container">
+            <img src="https://shivshankar9.github.io/Student-portal/images/logo.png" alt="Logo" id="logo">
+
+                <div class="small-container">
+                    <h1>👤 Profile Page</h1> 
+                    <p id="portal">MY PROFILE</p>
+                </div>
+
+        </div>
+            
         <hr class="line">
             <nav>
                 <ul id="nav-list">
-                    <li><a href="home.html">Home</a> |</li>
-                    <li><a href="about.html">About</a> |</li>
-                    <li><a href="profile.html">Profile</a> |</li>
-                    <li><a href="courses.html">Courses</a> |</li>
-                    <li><a href="grades.html">Grades</a> |</li>
-                    <li><a href="feedback.html">Feedback</a> |</li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav"><a href="home.html">Home</a></li>
+                    <li class="nav"><a href="about.html">About</a></li>
+                    <li class="nav"><a href="profile.html">Profile</a></li>
+                    <li class="nav"><a href="courses.html">Courses</a></li>
+                    <li class="nav"><a href="grades.html">Grades</a></li>
+                    <li class="nav"><a href="feedback.html">Feedback</a></li>
+                    <li class="nav"><a href="contact.html">Contact</a></li>
                 </ul>           
             </nav>
         <hr>
     </header>
 
     <main>
+        
+        
         <img src="./my-pic.jpg" width="400px">
 
-        <section class="details">
-            <strong>Name : Rani</strong><br>
-            <strong>Roll Number : 45</strong><br>
-            <strong>Courses : <abbr title="Bachelor of Computer Applications">BCA</abbr></strong><br>
-            <strong>Email : rani.kumari520527@gmail.com</strong><br>
-            <strong>Phone : 9311831213</strong><br>
-        </section>
+        <div class="div-1">
+            <section class="details">
+                <strong>Name : Rani</strong><br>
+                <strong>Roll Number : 45</strong><br>
+                <strong>Courses : <abbr title="Bachelor of Computer Applications">BCA</abbr></strong><br>
+                <strong>Email : rani.kumari520527@gmail.com</strong><br>
+                <strong>Phone : 9311831213</strong><br>
+            </section>
         
-        <section class="about-me">
-            <h3>About Me</h3>
-            <details>
-                <summary>
-                    Hello! My name is Rani. I am currently pursuing a <mark><abbr title="Bachelor of Computer Applications">BCA</abbr></mark> . I am passionate about technology and enjoy learning new programming skills every day. My goal is to become a skilled Full Stack Developer and build modern, user-friendly, and responsive web applications.
-                    I am currently learning web development technologies such as HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.
-               </summary>
-                <p>
-                    These technologies help me understand both frontend and backend development, allowing me to create complete web applications from start to finish.
-                    I enjoy solving programming problems, exploring new tools and frameworks, and working on practical projects that improve my coding skills. Every project gives me the opportunity to learn something new and gain valuable experience.
-                    In addition to coding, I believe in continuous learning and self-improvement. I enjoy exploring the latest trends in web development and expanding my knowledge through online courses, tutorials, and hands-on practice. I am always excited to take on new challenges and improve my technical and problem-solving abilities.
-                    My aim is to build a successful career in software development by creating innovative, efficient, and impactful applications. I am committed to learning, growing, and becoming a professional developer who can contribute to meaningful projects and collaborate effectively with others.
-                </p> 
-            </details>
-        </section>
+        
+            <section class="about-me">
+                <h3>About Me</h3>
+                <details>
+                    <summary>
+                        Hello! My name is Rani. I am currently pursuing a <mark><abbr title="Bachelor of Computer Applications">BCA</abbr></mark> . I am passionate about technology and enjoy learning new programming skills every day. 
+                    </summary>
+                        
+                    <p>
+                        My goal is to become a skilled Full Stack Developer and build modern, user-friendly, and responsive web applications.
+                        I am currently learning web development technologies such as HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.
+                        These technologies help me understand both frontend and backend development, allowing me to create complete web applications from start to finish.
+                        I enjoy solving programming problems, exploring new tools and frameworks, and working on practical projects that improve my coding skills. 
+                </details>
+            </section>
 
-        <div class="my-hobbies">
-            <strong>Hobbies</strong>
-            <ul type="square">
-                <li>Reading</li>
-                <li>Coding</li>
-                <li>Gaming</li>
-                <li>Travelling</li>
-            </ul>
-        </div>
+            <div class="my-hobbies">
+                <strong>Hobbies</strong>
+                <ul type="square">
+                    <li>Reading</li>
+                    <li>Coding</li>
+                    <li>Gaming</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
 
-        <div class="my-goals">
-        <strong>Goals</strong>
-            <ol>
-                <li>Become Full Stack Developer</li>
-                <li>Improve Communication</li>
-                <li>Get Full-time PLacement</li>
-            </ol>
+            <div class="my-goals">
+            <strong>Goals</strong>
+                <ol>
+                    <li>Become Full Stack Developer</li>
+                    <li>Improve Communication</li>
+                    <li>Get Full-time PLacement</li>
+                </ol>
+            </div>
         </div>
     </main>
 
     <footer>
-        <small>© 2026 Student Portal</small>
         <strong>Quick Links</strong>
-            <ul>
-                <a href="about.html">About Page |</a>
-                <a href="courses.html"> My Courses |</a>
-                <a href="grades.html"> My Grades |</a>
-                <a href="feedback.html"> Feedback |</a>
-                <a href="contact.html"> Contact Us</a>
+            <ul class="footer-link">
+                <a href="about.html" class="foot-link">About Page |</a>
+                <a href="courses.html" class="foot-link"> My Courses |</a>
+                <a href="grades.html" class="foot-link"> My Grades |</a>
+                <a href="feedback.html" class="foot-link"> Feedback |</a>
+                <a href="contact.html" class="foot-link"> Contact Us</a>
             </ul>
         <Strong class="email">Email : raniachheylal24@navgurukul.org</Strong>
+        <small>© 2026 Student Portal</small>
     </footer>
 </body>
 </html>

@@ -1,0 +1,41 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* body css */
+body{
+     background-color: bisque; 
+}
+
+/* header css */
+header{
+   
+    text-align: center;
+    /* padding: 10px; */
+    background-color: rgb(41, 83, 83);
+}
+
+/* main secion css */
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 3em;
+    padding: 30px;
+
+
+}
+
+img{
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+} 
+
+
+
+
+

@@ -15,4 +15,48 @@ body{
 /* header css */
 header{
     text-align: center;
+
+}
+
+/* main section css */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+caption{
+    text-align: center;
+}
+
+
+ul{
+    padding: 40px;
+    background-color: blanchedalmond;
+}
+
+.table-1{
+    padding: 30px;
+    border-collapse: collapse;
+    min-width: 3em;
+    width: 50%;
+    text-align: center;
+    /* margin-top: 30px; */
+    
+}
+
+tr:nth-child(even){
+    background-color: darkkhaki;
+}
+
+tr:nth-child(4){
+    background-color: lightblue;
+    
+}
+
+tr, td{
+    padding: 10px;
+
 }

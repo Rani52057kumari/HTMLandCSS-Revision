@@ -4,138 +4,222 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    overflow-x: hidden;
-    
 }
 
 /* body css */
 body{
-    text-align: center;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
+    background-color: #E0E1DD;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* main css */
+main{
+    min-height: 100vh;
+    flex: 1;
 }
 
 /* header css */
-header {
-    background-color: #7C3AED;
-    width: 100vw;
-    height: 11em;
+header{
+    background-color: #0D1B2A;
+    color: #fff;
+    padding: 10px;
 }
 
 
-#logo{
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 3rem;
-    position: absolute;
-    left: 0rem;
-    
+.container{
+    display: flex;
+    align-items: center;
 }
 
-h1{
-    padding-top: 10px;
+.small-container{
+    flex-grow: 1;
+    text-align: center;
 }
 
-ul{
-    list-style: none;
+.nav a{
+    color: #fff;
 }
 
 #nav-list{
-    /* margin-top: 30px; */
-    margin-right: 1.5em;
-    margin-left: 1.5em;
-    outline: 3px solid rgb(26, 26, 25);
-    padding: 10px;
-    text-align: center;
-    overflow-y: hidden;
+    background-color: #1B263B;
+}
+
+@media(max-width: 768px){
+    header h1{
+        font-size: 20px;
+    }
+}
+
+
+
+/* logo */
+#logo{
+    width: 5em;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* logo mediaquery */
+@media(max-width: 768px){
+    #logo{
+        width: 3em;
+        height: auto;
+        object-fit:contain;
+    }
+}
+
+/* ul-navbar */
+#nav-list{
     list-style: none;
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    gap: 1em;
+    cursor: pointer;
 }
 
-#nav-list li{
-    display: inline;
+/* media query ul-navbar */
+@media(max-width: 768px){
+    #nav-list{
+        list-style: none;
+        padding-left: 1em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        gap: 0.4em;
+        font-size: 15px;
+    }
 }
 
-p{
-    font-size: 1rem;
-}
-
-a {
-    font-size: 1.2rem;
-    color:black
-}
-
-nav {
-    padding: 1%;
-    
-}
 
 /* footer css */
 footer{
-    text-align: left;
-    background-color: #5B21B6;
-    margin-top: 10px;
-    padding: 1em;
-    width: 100vw;
+    background-color: #0D1B2A;
+    color: rgb(136, 130, 130);
+    padding: 20px;
+    line-height: 2;
+    
 }
 
-.email{
-    padding-top: 1em;
-    display: block;
+.footer-link{
+    list-style: none;
+    color: rgb(136, 130, 130);
+}
+
+.foot-link{
+    color: rgb(136, 130, 130);
 }
 
 small{
-    padding-bottom: 1em;
     display: block;
 }
 
 /* main section css */
-
 main{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: auto;
-    gap: 3.5em;
+    padding: 20px;
 }
 
-/* .main-section{
+.main-section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    grid-template-rows: auto;
-    gap: 3.5em; */
-
-    
-    /* text-align: center; */
-
-/* } */
-
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* background: #8c9376; */
+}
 
 .course{
+    background-color: #222e45;
+    padding: 100px;
+    border-radius: 10px;
+    color: rgb(235, 223, 223);
+    box-shadow: 2px 3px 4px #0D1B2A;
+}
 
-    margin-top: 30px;
-    margin-left: 1em;
-    margin-right: 1em;
-    box-shadow: 3px 4px 5px 6px lightpink;
-    border-radius: 40px;
-    justify-self: center;
-    align-self: center;
-    padding: 20px;
-
-
+.course summary{
+    list-style: none;
+    cursor: pointer;
 }
 
 aside{
-    margin-top: 40px;
-    border-radius: 30px;
-    box-shadow: 3px 4px 5px 8px palevioletred;
-    margin-left: 5em;
-    margin-right: 5em;
-    
+    background-color: #8b9098;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 100em;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
 }
 
-#mr{
-    font-weight: bold;
+aside ul{
+    list-style: none;
 }
+
+mark{
+    background-color: #E0E1DD;
+}
+
+/* media query for phone responsive */
+@media(max-width: 768px){
+        main{
+        padding: 20px;
+    }
+
+    .main-section{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    }
+
+    .course{
+        padding: 60px;
+        border-radius: 10px;
+    }
+
+    .course summary{
+        list-style: none;
+        cursor: pointer;
+    }
+
+    aside{
+        background-color: #293449;
+        text-align: left;
+        padding-left: 20px;
+        margin-right: 10em;
+        padding: 20px;
+        border-radius: 5px;
+        color: rgb(201, 201, 201);
+    }
+
+    aside ul{
+        list-style: none;
+    }
+
+    mark{
+        background-color: #E0E1DD;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

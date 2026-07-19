@@ -11,20 +11,26 @@
     <!-- <header> -->
 
     <header>
-        <img src="https://shivshankar9.github.io/Student-portal/images/logo.png" alt="Logo" id="logo">
+        <div class="container">
+            <img src="https://shivshankar9.github.io/Student-portal/images/logo.png" alt="Logo" id="logo">
 
-        <h1>📚 Courses Page</h1>
-        <h2>My Courses</h2>
+                <div class="small-container">
+                    <h1>📚 Courses Page</h1> 
+                    <p id="portal">MY COURSES</p>
+                </div>
+
+        </div>
             
         <hr class="line">
             <nav>
                 <ul id="nav-list">
-                    <li><a href="home.html">Home</a> |</li>
-                    <li><a href="about.html">About</a> |</li>
-                    <li><a href="profile.html">Profile</a> |</li>
-                    <li><a href="grades.html">Grades</a> |</li>
-                    <li><a href="feedback.html">Feedback</a> |</li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav"><a href="home.html">Home</a></li>
+                    <li class="nav"><a href="about.html">About</a></li>
+                    <li class="nav"><a href="profile.html">Profile</a></li>
+                    <li class="nav"><a href="courses.html">Courses</a></li>
+                    <li class="nav"><a href="grades.html">Grades</a></li>
+                    <li class="nav"><a href="feedback.html">Feedback</a></li>
+                    <li class="nav"><a href="contact.html">Contact</a></li>
                 </ul>           
             </nav>
         <hr>
@@ -35,7 +41,7 @@
         <article class="main-section">
             <section>
                 <details class="course">
-                    <summary><h3> HTML</h3></summary>
+                    <summary><h3>Course 1: HTML</h3></summary>
                     <p>HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages.</p>
                     <p>Duration: 4 Weeks</p>
                     <p>Status: Completed</p>
@@ -71,7 +77,16 @@
 
             <section class="course">
                 <details>
-                    <summary><h3>Course 5: Node.js</h3></summary>
+                    <summary><h3>Course 5: MongoDB</h3></summary>
+                    <p>MongoDB—a flexible, scalable NoSQL document database—through foundational learning paths and official certifications. Key training covers MongoDB Atlas (database-as-a-service), document models, CRUD operations, indexing, aggregation, and data modeling</p>
+                    <p>Duration: 6 Weeks</p>
+                    <p>Status: Upcoming</p>
+                </details>
+            </section>
+
+            <section class="course">
+                <details>
+                    <summary><h3>Course 6: Node.js</h3></summary>
                     <p>Node.js is a JavaScript runtime environment that allows developers to build fast and scalable server-side applications.</p>
                     <p>Duration: 6 Weeks</p>
                     <p>Status: Upcoming</p>
@@ -88,15 +103,16 @@
     </main><br>
     
     <footer>
-        <small>© 2026 Student Portal</small>
         <strong>Quick Links</strong>
-            <ul>
-                <a href="about.html">About Page |</a>
-                <a href="grades.html"> My Grades |</a>
-                <a href="feedback.html"> Feedback |</a>
-                <a href="contact.html"> Contact Us</a>
+            <ul class="footer-link">
+                <a href="about.html" class="foot-link">About Page |</a>
+                <a href="courses.html" class="foot-link"> My Courses |</a>
+                <a href="grades.html" class="foot-link"> My Grades |</a>
+                <a href="feedback.html" class="foot-link"> Feedback |</a>
+                <a href="contact.html" class="foot-link"> Contact Us</a>
             </ul>
         <Strong class="email">Email : raniachheylal24@navgurukul.org</Strong>
+        <small>© 2026 Student Portal</small>
     </footer>
 </body>
 </html>

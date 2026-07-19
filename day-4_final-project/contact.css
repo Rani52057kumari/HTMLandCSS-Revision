@@ -4,84 +4,122 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    overflow-x: hidden;
-    
 }
 
 /* body css */
 body{
-    text-align: center;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    /* overflow-x: hidden; */
+    background-color: #E0E1DD;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
+/* main css */
+main{
+    min-height: 100vh;
+    flex: 1;
+}
 
 /* header css */
-header {
-    background-color: #7C3AED;
-    width: 100vw;
-    height: 11em;
-    /* color: #DBEAFE; */
+header{
+    background-color: #0D1B2A;
+    color: #fff;
+    padding: 10px;
 }
 
 
-#logo{
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 3rem;
-    position: absolute;
-    left: 0rem;
-    
+.container{
+    display: flex;
+    align-items: center;
 }
 
-h1{
-    padding-top: 10px;
+.small-container{
+    flex-grow: 1;
+    text-align: center;
 }
 
-ul{
-    list-style: none;
+.nav a{
+    color: #fff;
 }
 
 #nav-list{
-    /* margin-top: 10px; */
-    outline: blanchedalmond;
-    text-align: center;
-    
+    background-color: #1B263B;
 }
 
-#nav-list li{
-    display: inline;
+@media(max-width: 768px){
+    header h1{
+        font-size: 20px;
+    }
 }
 
 
-a {
-    font-size: 1.2rem;
-    color:black
+
+/* logo */
+#logo{
+    width: 5em;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
-nav {
+/* logo mediaquery */
+@media(max-width: 768px){
+    #logo{
+        width: 3em;
+        height: auto;
+        object-fit:contain;
+    }
+}
+
+/* ul-navbar */
+#nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    /* margin-top: 10px; */
-
-    
+    font-size: 20px;
+    gap: 1em;
+    cursor: pointer;
 }
+
+/* media query ul-navbar */
+@media(max-width: 768px){
+    #nav-list{
+        list-style: none;
+        padding-left: 1em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        gap: 0.4em;
+        font-size: 15px;
+    }
+}
+
 
 /* footer css */
 footer{
-    text-align: left;
-    background-color: #5B21B6;
-    margin-top: 10px;
-    padding: 1em;
-    width: 100vw;
+    background-color: #0D1B2A;
+    color: rgb(136, 130, 130);
+    padding: 20px;
+    line-height: 2;
+    
 }
 
-.email{
-    padding-top: 1em;
-    display: block;
+.footer-link{
+    list-style: none;
+    color: rgb(136, 130, 130);
+}
+
+.foot-link{
+    color: rgb(136, 130, 130);
 }
 
 small{
-    padding-bottom: 1em;
     display: block;
 }
