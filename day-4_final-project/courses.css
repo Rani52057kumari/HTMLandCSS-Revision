@@ -141,7 +141,7 @@ main{
     padding: 100px;
     border-radius: 10px;
     color: rgb(235, 223, 223);
-    box-shadow: 2px 3px 4px #0D1B2A;
+    box-shadow: 2px 3px 4px black;
 }
 
 .course summary{
@@ -150,13 +150,13 @@ main{
 }
 
 aside{
-    background-color: #8b9098;
+    background-color: #222e45;
     text-align: left;
     padding-left: 20px;
     margin-right: 100em;
     padding: 20px;
     border-radius: 5px;
-    color: rgb(5, 5, 5);
+    color: rgb(236, 234, 234);
 }
 
 aside ul{
@@ -164,7 +164,7 @@ aside ul{
 }
 
 mark{
-    background-color: #E0E1DD;
+    background-color: #e1e0e0;
 }
 
 /* media query for phone responsive */
@@ -195,16 +195,13 @@ mark{
         margin-right: 10em;
         padding: 20px;
         border-radius: 5px;
-        color: rgb(201, 201, 201);
     }
 
     aside ul{
         list-style: none;
     }
 
-    mark{
-        background-color: #E0E1DD;
-    }
+
 
 }
 

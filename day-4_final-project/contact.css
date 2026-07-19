@@ -123,3 +123,92 @@ footer{
 small{
     display: block;
 }
+
+/* main section css */
+main{
+    padding: 20px;
+
+}
+
+.first, .second, .third, .four{
+    background-color: #26303a;
+    color: wheat;
+    margin-bottom: 1em;
+    display: block;
+    padding: 10px;
+    margin-left: 15em;
+    margin-right: 15em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.third, .four{
+    line-height: 1.7;
+}
+
+p a{
+    color: wheat;
+    background-color: #4e5664;
+    padding: 0.2em;
+}
+
+main img{
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    border: 3px solid #0D1B2A;
+}
+
+/* use media query for making reponsive */
+@media(max-width: 768px){
+
+    .first, .second, .third, .four{
+        background-color: #26303a;
+        color: wheat;
+        margin-bottom: 1em;
+        display: block;
+        padding: 10px;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .third, .four{
+        line-height: 1.7;
+    }
+
+    p a{
+        color: wheat;
+        background-color: #4e5664;
+        padding: 0.2em;
+    }
+
+    main img{
+        display: block;
+        /* width: 100%; */
+        max-width: 20em;
+        height: auto;
+        object-fit: cover;
+        margin: 0 auto 3em;
+        border-radius: 4px;
+        border: 2px solid #0D1B2A;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

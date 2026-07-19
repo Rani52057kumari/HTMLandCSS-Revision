@@ -123,3 +123,139 @@ footer{
 small{
     display: block;
 }
+
+/* main section css */
+main{
+    padding: 10px;
+    padding-left: 2em;
+
+}
+
+caption{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-goals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 95vw;
+    height: 500px;
+    text-align: center;
+    margin-top: 2em;
+    border: 3px solid #171e34;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #b9bcca;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(67, 72, 91);
+    color: #e9eae6;
+}
+
+thead tr:nth-child(1){
+    background-color: rgb(62, 67, 67);
+}
+
+main p{
+    background-color: grey;
+    padding: 20px;
+    margin-left: 40em;
+    margin-right: 40em;
+    border-radius: 5px;
+    box-shadow: 2px 3px #0D1B2A;
+}
+
+
+/* use media query for making responsive */
+@media(max-width: 768px){
+
+    main{
+        padding: 10px;
+    }
+
+    caption{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .my-goals{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table{
+        width: 95vw;
+        height: 500px;
+        text-align: center;
+        margin-top: 2em;
+        border: 3px solid #171e34;
+        border-collapse: collapse;
+    }
+
+    tr:nth-child(even) {
+    background-color: #b9bcca;
+    }
+
+    tr:nth-child(odd){
+        background-color: rgb(67, 72, 91);
+        color: #e9eae6;
+    }
+
+    thead tr:nth-child(1){
+        background-color: rgb(62, 67, 67);
+    }
+
+    main p{
+        background-color: grey;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 5px;
+        box-shadow: 2px 3px #0D1B2A;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

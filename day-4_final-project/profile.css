@@ -132,6 +132,7 @@ main{
 
 main img{
     border-radius: 50%;
+    border: 4px solid #0D1B2A;
 }
 
 .details{

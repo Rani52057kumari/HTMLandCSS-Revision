@@ -123,3 +123,221 @@ footer{
 small{
     display: block;
 }
+
+/* main section css */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B263B;
+    padding: 20px;
+}
+
+
+form{
+    background-color: #9ea9b6;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+
+}
+
+main img{
+    width: 600px;
+    height: 762px;
+    object-fit: cover;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 22px;
+
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: #343a41;
+}
+
+select option{
+    border: 2px solid #242830;
+    cursor: pointer;
+
+
+
+}
+
+select{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 2px solid #242830;
+    cursor: pointer;
+
+
+}
+
+strong{
+    font-size: 28px;
+    font-weight: 200;
+}
+
+textarea{
+    padding: 10px;
+    border: 2px solid #0D1B2A;
+    border-radius: 3px;
+    font-size: large;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    color: #343a41;
+}
+
+button{
+    padding: 15px;
+    font-size: larger;
+    border-radius: 3px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #55585c;
+    color: rgb(236, 230, 230);
+}
+
+@media(max-width: 768px){
+
+    main{
+        padding: 10px;
+    }
+
+    main div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1B263B;
+        padding: 10px;
+
+    }
+
+
+    form{
+        background-color: #9ea9b6;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        text-align: left;
+        padding: 0.5em;
+
+    }
+
+    main img{
+        width: 21.2em;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+    input{
+        border-radius: 3px;
+        font-size: 16px;
+
+    }
+
+    input::placeholder{
+        font-size: 16px;
+        color: #343a41;
+    }
+
+    select option{
+        border: 2px solid #242830;
+        cursor: pointer;
+    }
+
+    select{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 3px;
+        border: 2px solid #242830;
+        cursor: pointer;
+
+
+    }
+
+    strong{
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    textarea{
+        padding: 10px;
+        border: 2px solid #0D1B2A;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    textarea::placeholder{
+        font-size: 16px;
+        color: #343a41;
+    }
+
+    button{
+        padding: 15px;
+        font-size: larger;
+        border-radius: 3px;
+        font-weight: bold;
+        border-radius: 8px;
+        background-color: #55585c;
+        color: rgb(236, 230, 230);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
